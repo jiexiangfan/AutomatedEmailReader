@@ -1,6 +1,9 @@
+/**
+ * @fileoverview This file is the entry point for the application.
+ * It is responsible for rendering the application to the DOM.
+ */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
