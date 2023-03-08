@@ -1,3 +1,7 @@
+/**
+ * @file App.js
+ * @description This file is the basic layer of App component. At the current stage, the file is the only page of the app.
+ */
 import './App.css';
 
 function App() {
