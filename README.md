@@ -1,1 +1,1 @@
-# AutomatedEmailManager
+# AutomatedEmailReader
