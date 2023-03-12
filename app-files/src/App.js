@@ -3,6 +3,7 @@
  * @description This file is the basic layer of App component. At the current stage, the file is the only page of the app.
  */
 import './App.css';
+import FlipCard from './FlipCard';
 
 function App() {
   const boxes = () => {
@@ -15,6 +16,11 @@ function App() {
   return (
     <div className="App">
       <div className="area">
+        <div className="card-container">
+          <div className="card-vertical-center">
+            <FlipCard />
+          </div>
+        </div>
         <ul className="circles">
           {boxes().map((i) => (
             <li key={i} />
